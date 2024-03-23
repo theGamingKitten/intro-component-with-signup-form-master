@@ -45,3 +45,10 @@ body {
   margin: auto;
   width: 80%;
 }
+
+@media (max-width: 426px) {
+  .content-container {
+    grid-auto-flow: row;
+    width: 90%;
+  }
+}

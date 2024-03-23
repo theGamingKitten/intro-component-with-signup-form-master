@@ -40,9 +40,9 @@ const InputError = ({ message }) => {
     return (        
       <motion.p        
         {...framer_error}
-      >      
+      >            
+        {message}  
         <img className="error-icon" src={errorSVG} alt="Error"/>
-        {message}        
       </motion.p>
     )
   }

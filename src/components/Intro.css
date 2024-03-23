@@ -17,3 +17,18 @@ h1 {
 p {
     font-size: 1.3rem;
 }
+
+@media (max-width: 426px) {
+    .intro-container {
+        text-align: center;
+        padding: 10px;
+        gap: 15px;
+        margin: 25px 0;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+}
