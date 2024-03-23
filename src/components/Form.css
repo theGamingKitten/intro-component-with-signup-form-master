@@ -1,0 +1,95 @@
+@import '../index.css';
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    text-align: center;
+    color: red;
+}
+
+.try-it {
+    background-color: var(--blue);
+    padding: 20px;
+    font-weight: var(--font-weight-400);
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: var(--border-radius);
+}
+
+.bold {
+    font-weight: var(--font-weight-700);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border-color: var(--grayish-blue);
+    margin-top: 20px;
+}
+
+input:first-of-type {
+    margin-top: 0;
+}
+
+.error,
+.error:focus {
+    border-color: red;
+}
+
+.error-icon {
+    width: 20px;
+    position: relative;
+    bottom: 35px;
+    right: -120px;
+}
+
+.valid {
+    border-color: black;
+}
+
+/* InputError */
+form > p {
+    font-size: 0.7rem;
+    text-align: right;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+label {
+    display: none;
+}
+
+button {
+    background-color: var(--green);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 20px;
+    border: none;
+    border-radius: var(--border-radius);
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(125%);
+}
+
+.terms {
+    color: var(--grayish-blue);
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+
+.terms-link {
+    color: var(--red);
+    text-decoration: none;
+}

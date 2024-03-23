@@ -1,0 +1,47 @@
+:root {
+  /*Fonts*/
+  --font-family: "Poppins";
+  --font-size: 16px;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  /*Primary*/
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+  /*Accent*/
+  --blue: hsl(248, 32%, 49%);
+  /*Neutral*/
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+  --white: hsl(0, 0%, 100%);
+  /*Border*/
+  --border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--white);
+  font-family: var(--font-family);
+
+  background-image: url('./assets/bg-intro-desktop.png');
+  background-repeat: repeat;
+  background-color: var(--red);
+}
+
+.content-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  margin: auto;
+  width: 80%;
+}
